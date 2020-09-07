@@ -18,7 +18,7 @@ class SinglyLinkedList(object):
     """
     We encapsulate data in a node so that it has the next pointer attribute.
     From here, we check if there are any existing nodes in the list
-    (that is, whether self.head points to a Node or not).
+    (that is, whether self.tail points to a Node or not).
     
     If there is None, we make the new node the first node of the list; 
     otherwise, we find the insertion point by traversing the list to the last node, 
