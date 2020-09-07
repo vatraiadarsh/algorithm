@@ -66,6 +66,11 @@ class SinglyLinkedList(object):
                 return True
         return False
 
+    def clear(self):
+        """ Clear the entire list. """
+    self.tail = None
+    self.head = None
+
 
 words = SinglyLinkedList()
 words.append('foo')
